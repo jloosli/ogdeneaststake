@@ -1,0 +1,17 @@
+{{ define "main" }}
+<main class="main">
+  <h2>Meetings for Sunday, November 1st</h2>
+  <div class="cards">
+    {{ range where $.Site.Data.meetings ".active" true }}
+    <a target="_blank" href="{{ .link }}">
+      <div class="card">
+        <div class="image">
+          <img src="{{ .image }}" alt="{{ .name }}">
+        </div>
+        <div class="title"><h2>{{ .name }}</h2></div>
+      </div>
+    </a>
+    {{ end }}
+  </div>
+</main>
+{{ end }}

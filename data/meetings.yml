@@ -1,0 +1,41 @@
+- name: Relief Society (9:30am)
+  image: images/relief_society.svg
+  link: https://youtube.com
+  active: true
+
+- name: Elders Quorum (9:30am)
+  image: images/eq.svg
+  link: https://youtube.com
+  active: true
+
+- name: Young Men (9:30am)
+  image: images/explore_tunnel.svg
+  link:
+  active: true
+
+- name: Young Women (9:30am)
+  image: images/yw.svg
+  link:
+  active: true
+
+- name: Adult Sunday School (9:30am)
+  image: images/ss_adult.svg
+  link:
+  active: true
+
+- name: Youth Sunday School (9:30am)
+  image: images/ss_youth.svg
+  link:
+  active: true
+
+- name: 5th Sunday Lesson (9:30am)
+  image: images/ss_adult.svg
+  link:
+  active: true
+
+
+
+- name: Sacrament Meeting (11:00am)
+  image: images/speaker_female.svg
+  link: https://youtube.com
+  active: true

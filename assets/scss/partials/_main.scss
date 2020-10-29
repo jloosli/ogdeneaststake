@@ -1,0 +1,32 @@
+.cards {
+  display: flex;
+  flex-flow: row wrap;
+  .card {
+    width: 300px;
+    margin: 1rem;
+    border: 1px solid $divider-color;
+    &:hover .title {
+      background-color: #eee;
+    }
+    .image {
+      padding: 0.5rem;
+    }
+
+    .title {
+      border-top: 1px solid $divider-color;
+      padding: 0.5rem;
+    }
+
+  }
+}
+
+img {
+  vertical-align: middle;
+  border: 0 !important;
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: $primary-text-color;
+}
