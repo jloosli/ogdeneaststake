@@ -1,8 +1,8 @@
 {{ define "main" }}
 <main class="main">
-  <h2>Meetings for Sunday, November 1st</h2>
+  <h2>Meetings for {{ dateFormat "Monday, Jan 2, 2006" $.Site.Data.meetings.date }}</h2>
   <div class="cards">
-    {{ range where $.Site.Data.meetings ".active" true }}
+    {{ range where $.Site.Data.meetings.classes ".active" true }}
     <a target="_blank" href="{{ .link }}">
       <div class="card">
         <div class="image">
