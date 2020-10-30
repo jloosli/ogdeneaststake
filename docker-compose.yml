@@ -2,7 +2,7 @@ version: '3.7'
 
 services:
   server:
-    image: klakegg/hugo:ext
+    image: klakegg/hugo:ext-alpine
     command: server
     volumes:
       - ".:/src"
