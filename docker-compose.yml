@@ -10,6 +10,6 @@ services:
       - "1313:1313"
 
   build:
-    image: klakegg/hugo:ext
+    image: klakegg/hugo:ext-alpine
     volumes:
       - ".:/src"
