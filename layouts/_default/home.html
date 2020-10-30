@@ -1,9 +1,11 @@
 {{ define "main" }}
+{{ $type := $.Site.Data.week.type }}
+{{ $links := $.Site.Data.week.classes }}
 <main class="main">
-  <h2>Meetings for {{ dateFormat "Monday, Jan 2, 2006" $.Site.Data.meetings.date }}</h2>
+  <h2>Meetings for {{ dateFormat "Monday, Jan 2, 2006" $.Site.Data.week.date }}</h2>
   <div class="cards">
-    {{ range where $.Site.Data.meetings.classes ".active" true }}
-    <a target="_blank" href="{{ .link }}">
+    {{ range where $.Site.Data.meetings ".type" "in" (slice $type "all") }}
+    <a href="{{ index $links .id }}">
       <div class="card">
         <div class="image">
           <img src="{{ .image }}" alt="{{ .name }}">

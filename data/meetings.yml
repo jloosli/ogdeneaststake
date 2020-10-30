@@ -1,41 +1,39 @@
-date: 2020-11-01
-classes:
-  - name: Relief Society (9:30am)
-    image: images/relief_society.svg
-    link: https://youtube.com
-    active: false
+- id: rs
+  name: Relief Society (9:30am)
+  image: images/relief_society.svg
+  type: even
 
-  - name: Elders Quorum (9:30am)
-    image: images/eq.svg
-    link: https://youtube.com
-    active: false
+- id: eq
+  name: Elders Quorum (9:30am)
+  image: images/eq2.svg
+  type: even
 
-  - name: Young Men (9:30am)
-    image: images/explore_tunnel.svg
-    link:
-    active: false
+- id: ym
+  name: Young Men (9:30am)
+  image: images/ym.svg
+  type: even
 
-  - name: Young Women (9:30am)
-    image: images/yw.svg
-    link:
-    active: false
+- id: yw
+  name: Young Women (9:30am)
+  image: images/yw.svg
+  type: even
 
-  - name: Adult Sunday School (9:30am)
-    image: images/ss_adult.svg
-    link: https://pluralsight.zoom.us/j/92032608075?pwd=R0pieDNjaE9JdXVCeHVTTkF4Q2pjQT09
-    active: true
+- id: ss-adult
+  name: Adult Sunday School (9:30am)
+  image: images/ss_adult.svg
+  type: odd
 
-  - name: Youth Sunday School (9:30am)
-    image: images/ss_youth.svg
-    link: https://pluralsight.zoom.us/j/96273168166?pwd=cEpFVjg2SDhjWnEzT0IrQ1VObWdodz09
-    active: true
+- id: ss-youth
+  name: Youth Sunday School (9:30am)
+  image: images/ss_youth.svg
+  type: odd
 
-  - name: 5th Sunday Lesson (9:30am)
-    image: images/ss_adult.svg
-    link:
-    active: false
+- id: fifth
+  name: 5th Sunday Lesson (9:30am)
+  image: images/ss_adult.svg
+  type: fifth
 
-  - name: Sacrament Meeting (11:00am)
-    image: images/speaker_female.svg
-    link: https://youtu.be/_G9eUHNjWrA
-    active: true
+- id: sacrament
+  name: Sacrament Meeting (11:00am)
+  image: images/speaker_female.svg
+  type: all
