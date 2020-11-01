@@ -19,14 +19,14 @@
   type: even
 
 - id: ss-adult
-  name: Adult Sunday School (9:30am)
+  name: Adult and Youth Sunday School (9:30am)
   image: images/ss_adult.svg
   type: odd
 
 - id: ss-youth
   name: Youth Sunday School (9:30am)
   image: images/ss_youth.svg
-  type: odd
+  type: odd-diff
 
 - id: fifth
   name: 5th Sunday Lesson (9:30am)
