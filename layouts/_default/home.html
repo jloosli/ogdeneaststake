@@ -1,19 +1,32 @@
-{{ define "main" }}
-{{ $type := $.Site.Data.week.type }}
-{{ $links := $.Site.Data.week.classes }}
+{{- define "main" -}}
 <main class="main">
-  <h2>Meetings for {{ dateFormat "Monday, Jan 2, 2006" $.Site.Data.week.date }}</h2>
-  <div class="cards">
-    {{ range where $.Site.Data.meetings ".type" "in" (slice $type "all") }}
-    <a href="{{ index $links .id }}">
-      <div class="card">
-        <div class="image">
-          <img src="{{ .image }}" alt="{{ .name }}">
+  <section class="announcements">
+    {{.Content}}
+  </section>
+  {{- range $week := $.Site.Data.week -}}
+  <section class="dateSection">
+    <h2>Meetings for {{ dateFormat "Monday, Jan 2, 2006" .date }}</h2>
+    <div class="cards">
+      {{ range $id, $link := .classes }}
+      {{ $currentMeeting := index $.Site.Data.meetings $id }}
+      {{ if in (slice $week.type "all") $currentMeeting.type }}
+      <a href="{{ $link }}">
+        <div class="card">
+          <div class="image">
+            <img src="{{ $currentMeeting.image }}" alt="{{ $currentMeeting.name }}">
+          </div>
+          <div class="title"><h4>{{ $currentMeeting.name }} ({{ $currentMeeting.time }})</h4></div>
         </div>
-        <div class="title"><h4>{{ .name }}</h4></div>
-      </div>
-    </a>
-    {{ end }}
-  </div>
+      </a>
+      {{- end -}}
+      {{- end -}}
+    </div>
+  </section>
+{{- end -}}
 </main>
-{{ end }}
+<script>
+  if(window.location.search==='?tithing'){
+     document.querySelector('.announcements').style.display = 'block';
+  }
+</script>
+{{- end -}}

@@ -3,8 +3,12 @@
 }
 .cards {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 1rem;
+
+  a, a:hover {
+    text-decoration: none;
+  }
 
   .card {
     display: grid;
@@ -19,6 +23,7 @@
     h1,h2,h3,h4,h5,h6 {
       margin: 0;
     }
+
     &:hover .title {
       background-color: #ddd;
     }
@@ -51,7 +56,3 @@ img {
   max-height: 100%;
 }
 
-a {
-  text-decoration: none;
-  color: $primary-text-color;
-}

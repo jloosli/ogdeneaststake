@@ -1,39 +1,53 @@
-- id: rs
-  name: Relief Society (9:30am)
+rs:
+  name: Relief Society
   image: images/relief_society.svg
+  time: 9:30am
   type: even
 
-- id: eq
-  name: Elders Quorum (9:30am)
+eq:
+  name: Elders Quorum
   image: images/eq2.svg
+  time: 9:30am
   type: even
 
-- id: ym
-  name: Young Men (9:30am)
+ym:
+  name: Young Men
   image: images/ym.svg
+  time: 9:30am
   type: even
 
-- id: yw
-  name: Young Women (9:30am)
+yw:
+  name: Young Women
   image: images/yw.svg
+  time: 9:30am
   type: even
 
-- id: ss-adult
-  name: Adult Sunday School (9:30am)
+ss-adult:
+  name: Adult Sunday School
   image: images/ss_adult.svg
+  time: 9:30am
   type: odd
 
-- id: ss-youth
-  name: Youth Sunday School (9:30am)
+ss-youth:
+  name: Youth Sunday School
   image: images/ss_youth.svg
+  time: 9:30am
   type: odd
 
-- id: fifth
-  name: 5th Sunday Lesson (9:30am)
+fifth:
+  name: 5th Sunday Lesson
   image: images/ss_adult.svg
+  time: 9:30am
   type: fifth
 
-- id: sacrament
-  name: Sacrament Meeting (11:00am)
+sacrament:
+  name: Sacrament Meeting
   image: images/speaker_female.svg
+  time: 11:00am
   type: all
+
+ym_weekly:
+  name: Young Men Wednesday Night
+  image: images/ym.svg
+  time: 7:00pm
+  type: adhoc
