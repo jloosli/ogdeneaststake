@@ -6,4 +6,4 @@ If you're a small family, please schedule a [15 minute](https://calendly.com/jlo
 
 If you're a large family, please schedule a [30 minute](https://calendly.com/jloosli/30min) appointment. 
 
-Alternatively, you can contact Brother Call at (555.555.5555) to schedule an appointment as well.
+Alternatively, you can contact Brother Murphy at (555.555.5555) to schedule an appointment as well.
