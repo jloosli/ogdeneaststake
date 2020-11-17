@@ -6,9 +6,9 @@ disableKinds = ["taxonomy", "term"]
 ignoreErrors = ["error-disable-taxonomy"]
 
 [module]
-#[[module.mounts]]
-#source = "assets"
-#target = "assets"
+[[module.mounts]]
+source = "static"
+target = "static"
 #[[module.mounts]]
 #source = "node_modules/modern-normalize/modern-normalize.css"
 #target = "assets/scss/_modern-normalize.scss"
