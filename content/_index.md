@@ -1,9 +1,6 @@
-# Tithing Settlement
+# Announcements
 
-It's time for tithing settlement. 
+It's time for tithing settlement! 
+Please [schedule an appointment online](https://calendly.com/danmurph17/eccles-park-tithing-settlement).
 
-If you're a small family, please schedule a [15 minute](https://calendly.com/jloosli/15min) apppointment.
-
-If you're a large family, please schedule a [30 minute](https://calendly.com/jloosli/30min) appointment. 
-
-Alternatively, you can contact Brother Murphy at (555.555.5555) to schedule an appointment as well.
+Alternatively, you can contact Brother Murphy at 801-648-0331 to schedule an appointment as well.
