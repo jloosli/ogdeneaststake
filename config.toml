@@ -1,6 +1,6 @@
 baseURL = "https://ogdeneaststake.com/"
 languageCode = "en-us"
-title = "Ogden East Stake Information"
+title = "Ogden East Stake Conference Information"
 
 disableKinds = ["taxonomy", "term"]
 ignoreErrors = ["error-disable-taxonomy"]

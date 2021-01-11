@@ -1,17 +1,4 @@
-# Announcements	
+## Announcements
 
-
-It's time for tithing settlement! 	
-Please [schedule an appointment online](https://calendly.com/danmurph17/eccles-park-tithing-settlement).	
-
-Alternatively, you can contact Brother Murphy at 801-648-0331 to schedule an appointment as well.
-
-## Stake Conference
-
-Remember! Stake conference adult sessions are as follows:
-
-* Adult Session: Saturday, January 16th at 6pm
-* Leadership Session: Sunday, January 17th at 7:30am
-* General Session: Sunday, January 17th at 10am
-
-You will receive an email later this week with links to the sessions
+All meetings will be held over zoom. Please visit [Zoom's test link](https://zoom.us/test) ahead of conference 
+to make sure you are able to participate.

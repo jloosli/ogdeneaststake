@@ -1,0 +1,14 @@
+adult:
+  name: Adult Session
+  image: images/undraw_public_discussion_btnw.svg
+  time: 6:00pm
+
+leadership:
+  name: Leadership Session
+  image: images/undraw_conference_call_b0w6.svg
+  time: 7:30am
+
+general:
+  name: General Session
+  image: images/undraw_candidate_ubwv.svg
+  time: 10:00am

@@ -7,10 +7,9 @@
   <section class="dateSection">
     <h2>Meetings for {{ dateFormat "Monday, Jan 2, 2006" .date }}</h2>
     <div class="cards">
-      {{ range $id, $link := .classes }}
-      {{ $currentMeeting := index $.Site.Data.meetings $id }}
-      {{ if in (slice $week.type "all") $currentMeeting.type }}
-      <a href="{{ $link }}">
+      {{ range .sessions }}
+      {{ $currentMeeting := index $.Site.Data.sessions .id }}
+      <a href="{{ .link }}">
         <div class="card">
           <div class="image">
             <img src="{{ $currentMeeting.image }}" alt="{{ $currentMeeting.name }}">
@@ -18,7 +17,6 @@
           <div class="title"><h4>{{ $currentMeeting.name }} ({{ $currentMeeting.time }})</h4></div>
         </div>
       </a>
-      {{- end -}}
       {{- end -}}
     </div>
   </section>
