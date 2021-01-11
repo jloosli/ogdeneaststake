@@ -1,4 +1,4 @@
-# ecclespark.info
-![Hugo](https://github.com/jloosli/ecclespark-info/workflows/Hugo/badge.svg)
+# Ogden East Stake
 
-Edit the [week.yml](data/week.yml) datafile to select the type of week and set the youtube/zoom links.
+![Hugo](https://github.com/jloosli/ogdeneaststake/workflows/Hugo/badge.svg)
+
