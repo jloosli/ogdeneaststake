@@ -36,10 +36,10 @@ jobs:
         with:
           githubToken: ${{ secrets.BUILD_TOKEN }}
 
-      - name: Send Push Notification
-        uses: techulus/push-github-action@1.0.0
-        env:
-          API_KEY: ${{ secrets.PUSH_KEY }}
-          MESSAGE: "ecclespark.info build completed"
-          TITLE: "Build Success"
-          LINK: https://ecclespark.info
+#      - name: Send Push Notification
+#        uses: techulus/push-github-action@1.0.0
+#        env:
+#          API_KEY: ${{ secrets.PUSH_KEY }}
+#          MESSAGE: "ogdeneaststake.com build completed"
+#          TITLE: "Build Success"
+#          LINK: https://ogdeneaststake.com

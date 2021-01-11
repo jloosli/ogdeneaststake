@@ -1,6 +1,6 @@
-baseURL = "https://ecclespark.info/"
+baseURL = "https://ogdeneaststake.com/"
 languageCode = "en-us"
-title = "Eccles Park Ward Information"
+title = "Ogden East Stake Information"
 
 disableKinds = ["taxonomy", "term"]
 ignoreErrors = ["error-disable-taxonomy"]
